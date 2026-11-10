@@ -1,6 +1,6 @@
 # Portfolio project instructions
 
-This is Samiul Azim Leon’s personal, desktop-inspired portfolio. Preserve the midnight-blue visual direction, responsive macOS-style interface, accessible interactions, lightweight motion, and the visible credit to Eagle Dzn Studio. Do not invent personal facts, project achievements, or social destinations; label demo content until Leon supplies real details.
+This is Samiul Azim Leon’s personal, desktop-inspired portfolio. Preserve the midnight-blue wallpaper and make the portfolio feel like a native macOS desktop and iOS home screen, with familiar app icons, system-style windows, accessible interactions, lightweight motion, and visible credit to Eagle Dzn Studio. Keep the dock translucent and show app names on hover, keyboard focus, and touch long press; a normal tap opens the app. Keep the About Me icon in the dock only; do not add a landing-page introduction to the desktop. Use the supplied native Notes icon for the Notes app. Do not invent personal facts, project achievements, or social destinations; label demo content until Leon supplies real details.
 
 Content and app definitions belong in `src/data/`; window contents in `src/apps/`; shared interface components in `src/components/`; styling in `src/styles/`; replaceable imagery in `public/assets/`. Keep dependencies and animations lightweight. Support keyboard navigation, readable contrast, touch, and reduced motion.
 
@@ -22,6 +22,7 @@ package-lock.json
 package.json
 public/
 public/assets/
+public/assets/notes-macos.png
 public/assets/portrait.png
 README.md
 scripts/
