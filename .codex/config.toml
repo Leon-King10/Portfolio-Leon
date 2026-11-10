@@ -1,0 +1,7 @@
+[[hooks.SessionStart]]
+matcher = "^(startup|resume|compact)$"
+
+[[hooks.SessionStart.hooks]]
+type = "command"
+command = 'node "$(git rev-parse --show-toplevel)/scripts/session-start.mjs"'
+additionalContextLimit = 10000
